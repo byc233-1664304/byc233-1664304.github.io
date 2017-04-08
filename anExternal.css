@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+}
+
+.header{
+	color: pink; font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.wrapper{
+	background: #fff;
+	border: solid 1px #eee;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px #000;
+	max-width:960px;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img{
+	float: right;
+	margin: 10px;
+}
